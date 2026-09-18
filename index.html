@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="vi" data-theme="light">
+<head>
+<meta charset="utf-8">
+<title>Mình đi đâu đây? · Hải Phòng, tháng 10 năm 2026</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Các điểm đến cho chuyến đi nhóm 2–3 ngày từ Hải Phòng vào tuần đầu tháng 10 năm 2026, xếp hạng theo điểm gợi ý minh bạch.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#eef4f6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0b1a22" media="(prefers-color-scheme: dark)">
+<meta property="og:title" content="Mình đi đâu đây?">
+<meta property="og:description" content="Tám điểm đến trong tầm đi được từ Hải Phòng, đã xếp hạng và giải thích. Tuần đầu tháng 10 năm 2026.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="vi_VN">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+<!-- Theme and language applied before first paint, so there is no flash of the
+     wrong palette or a flash of English. -->
+<script>
+(function () {
+  var d = document.documentElement;
+  try {
+    var savedTheme = localStorage.getItem('trip.theme');
+    var dark = savedTheme ? savedTheme === 'dark'
+      : window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    d.setAttribute('data-theme', dark ? 'dark' : 'light');
+
+    var savedLang = localStorage.getItem('trip.lang');
+    if (savedLang === 'vi' || savedLang === 'en') d.setAttribute('lang', savedLang);
+  } catch (e) { /* private mode: fall through to the markup defaults */ }
+})();
+</script>
+
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+<a class="skip" href="#main" data-i18n="skipToContent">Bỏ qua, tới nội dung</a>
+
+<header class="topbar">
+  <div class="wrap topbar__inner">
+    <a class="topbar__brand" href="index.html">
+      <span class="topbar__star" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 1.6l2.5 6.4 6.9.4-5.3 4.4 1.8 6.7L12 15.8l-5.9 3.7 1.8-6.7L2.6 8.4l6.9-.4z"/>
+        </svg>
+      </span>
+      <span class="topbar__names">
+        <span class="topbar__title" data-site-title>Mình đi đâu đây?</span>
+        <span class="topbar__byline" data-brand-byline>Haley the Little Star · Ban Du Lịch</span>
+      </span>
+    </a>
+    <button class="iconbtn iconbtn--text" type="button" data-lang-toggle aria-label="Đổi ngôn ngữ">
+      <span data-lang-label aria-hidden="true">EN</span>
+    </button>
+    <button class="iconbtn" type="button" data-theme-toggle aria-label="Đổi nền sáng tối">
+      <span data-theme-icon aria-hidden="true">☾</span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero wrap">
+    <p class="hero__eyebrow" data-hero-eyebrow></p>
+    <h1 class="hero__title" data-hero-title></h1>
+    <p class="hero__sub" data-hero-sub></p>
+    <p class="hero__count" data-hero-count></p>
+    <div class="hero__actions">
+      <a class="btn btn--ghost" href="#compare" data-i18n="compareAll">Bắt đầu tranh luận</a>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <h2 class="sr-only" data-i18n="destination">Điểm đến</h2>
+    <div class="cards" data-cards>
+      <p class="loading" data-i18n="loading">Đang tải…</p>
+    </div>
+  </section>
+
+  <section class="wrap compare" id="compare" data-compare></section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <p data-footer-estimates></p>
+    <p data-footer-asof></p>
+    <p data-footer-source></p>
+  </div>
+</footer>
+
+<script src="config.js"></script>
+<script src="locations/registry.js"></script>
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/score.js"></script>
+<script src="assets/js/motif.js"></script>
+<script src="assets/js/backdrop.js"></script>
+<script src="assets/js/render.js"></script>
+<script src="assets/js/motion.js"></script>
+<script src="assets/js/home.js"></script>
+</body>
+</html>
