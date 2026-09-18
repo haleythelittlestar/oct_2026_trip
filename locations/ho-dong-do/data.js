@@ -6,17 +6,17 @@ TRIP.registerLocation({
   name: 'Hồ Đồng Đò',
   region: { vi: 'Sóc Sơn, Hà Nội', en: 'Sóc Sơn, Hà Nội' },
   tagline: {
-    vi: 'Ý tưởng ban đầu của nhóm mình. Xin lỗi nhé — nó xếp cuối, và đây là lý do.',
-    en: 'Your original idea. Sorry — it came last, and here is why.'
+    vi: 'Ý tưởng ban đầu của Haley. Xin lỗi nhé — nó xếp cuối, và đây là lý do.',
+    en: 'Haley\u2019s original idea. Sorry — it came last, and here is why.'
   },
   summary: {
     vi: 'Một hồ chứa ở thôn Minh Tân, xã Minh Trí trong vùng đồi Sóc Sơn, cách trung tâm Hà Nội ' +
         'khoảng 40–45 km về phía bắc, bao quanh là rừng thông. Nó đã thành một trong những điểm ' +
-        'cắm trại cuối tuần được yêu thích nhất của Hà Nội. Đây là ý tưởng ban đầu của cả nhóm, ' +
+        'cắm trại cuối tuần được yêu thích nhất của Hà Nội. Đây là ý tưởng ban đầu của Haley, ' +
         'và nó thoải mái nằm trong mốc 200 km — nhưng nó xếp cuối, và lý do thì đáng đọc.',
     en: 'A reservoir at thôn Minh Tân, xã Minh Trí in the Sóc Sơn hills, about 40–45 km north ' +
         'of central Hà Nội, ringed by pine forest. It has become one of Hà Nội\u2019s most popular ' +
-        'weekend camping spots. This was your original idea, and it clears the 200 km ' +
+        'weekend camping spots. This was Haley\u2019s original idea, and it clears the 200 km ' +
         'rule comfortably — but it ranks last, and the reasons are worth reading.'
   },
 
